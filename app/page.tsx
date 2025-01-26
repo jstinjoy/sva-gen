@@ -227,7 +227,7 @@ export default function Home() {
             </p>
           </div>
           {isGenerating && (
-            <div className="mt-4 sm:mt-6 px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-500/5 border border-blue-500/20 rounded-full inline-flex items-center gap-2 animate-pulse backdrop-blur-xl">
+            <div className="mt-4 sm:mt-6 px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-500/5 border border-blue-500/20 rounded-full inline-flex items-center gap-2 backdrop-blur-xl">
               <Loader2 className="h-4 w-4 animate-spin text-primary" />
               <span className="text-sm font-medium tabular-nums">Attempts: {displayedAttempts.toLocaleString()}</span>
             </div>
